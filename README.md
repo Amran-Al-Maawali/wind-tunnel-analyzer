@@ -42,11 +42,13 @@ The wind tunnel setup includes a force balance system used to measure aerodynami
 These measurements are obtained using load cells.
 
 **Derived quantities**
-Lift and drag coefficients cn be calculated using:
+Lift and drag coefficients can be calculated using:
+
 $$ 
 C_L = \frac{L}{\tfrac{1}{2} \rho V^2 A}, \quad  
 C_D = \frac{D}{\tfrac{1}{2} \rho V^2 A}  
 $$
+
 where:
 
 - $L$ = vertical lift force
@@ -62,9 +64,11 @@ These coefficients allow results to be compared across different flow conditions
 ## Analysis
 
 A primary result of wind tunnel testing is the **lift curve**, which relates lift coefficient to angle of attack:
+
 $$  
 C_L\ \text{vs}\ \alpha  
 $$
+
 This relationship is used to determine operating conditions required to achieve a desired aerodynamic performance.
 
 
