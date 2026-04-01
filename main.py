@@ -34,6 +34,12 @@ def main():
     # Add code to compute the angle of attack required to achieve
     # a target lift coefficient using solve_alpha(...).
     # Print the result to the console.
+  
+    CL_target = 0.5
+
+    alpha_target = find_alpha_for_CL(alpha_data, CL_data, CL_target)
+
+    print(alpha_target)
 
     plt.show()
 
@@ -102,12 +108,6 @@ def plot_drag_curve(df):
     plt.title("Drag Curve")
     plt.grid(True)
     plt.tight_layout()
-
-CL_target = 0.5
-
-alpha_target = find_alpha_for_CL(alpha_data, CL_data, CL_target)
-
-print(alpha_target)
 
 main()
 print("main.py ran successfully")
