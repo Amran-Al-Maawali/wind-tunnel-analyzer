@@ -103,6 +103,11 @@ def plot_drag_curve(df):
     plt.grid(True)
     plt.tight_layout()
 
+CL_target = 0.5
+
+alpha_target = find_alpha_for_CL(alpha_data, CL_data, CL_target)
+
+print(alpha_target)
 
 main()
 print("main.py ran successfully")
