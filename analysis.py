@@ -65,8 +65,3 @@ def print_lift_summary(alpha, cl0=0.10, lift_slope=0.11):
 #     solve_alpha(...)
 #
 # This feature has not been implemented yet.
-
-import numpy as np
-
-def solve_alpha(alpha_data, cl_data, cl_target):
-    return np.interp(cl_target, cl_data, alpha_data)
